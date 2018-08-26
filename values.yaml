@@ -2,12 +2,12 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-replicaCount: 1
+#replicaCount: 1
 
-image:
+#image:
   #repository: nginx
   #tag: stable
-  pullPolicy: IfNotPresent
+#  pullPolicy: IfNotPresent
 
 #service:
 #  type: ClusterIP
@@ -20,7 +20,7 @@ image:
     # kubernetes.io/tls-acme: "true"
 #  path: /
 #  hosts:
-    - chart-example.local
+# - chart-example.local
 #  tls: []
   #  - secretName: chart-example-tls
   #    hosts:
